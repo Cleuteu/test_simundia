@@ -15,6 +15,7 @@ class Controller
 
   def export
     @usersbook.export
+    @view.done_export
   end
 
   private

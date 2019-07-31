@@ -1,8 +1,7 @@
 class View
-  # def ask_user_for_importation
-  #   puts "Do you want to importe your csv input?"
-  #   gets.chomp
-  # end
+  def done_export
+    puts "Done! Your csv file is here : #{File.join(__dir__, 'output.csv')}"
+  end
 
   def display(usersbook)
     usersbook.each_with_index do |list, index|
